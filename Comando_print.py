@@ -4,6 +4,6 @@ Autor: Andre Iacono
 Plataforma: Udemy
 '''
 #Primeiras linhas de código
-print("Olá")
-print('Tudo Bem?')
-print('Qual é seu Nome?')
+print(" Olá ")
+print(' Tudo Bem? ')
+print(' Qual é seu Nome? ')
