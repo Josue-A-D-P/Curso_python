@@ -15,7 +15,7 @@ print(b + b)
 #int type
 print(c + c)
 
-print("\n","----------------------","\n")
+print("\n----------------------\n")
  
 #Manipulando o tipo da váriavel
 d = str(3)
@@ -24,3 +24,13 @@ f = float(5)
 print(d+d)
 print(e+e)
 print(f+f)
+
+print("\n---------------------\n")
+
+#Praticando com strings e integers
+
+nome = ('josué')
+idade = str (28)
+aula = str(15)
+
+print("Aluno: " + nome + "\nIdade: " + idade + "\nAula: " + aula )
