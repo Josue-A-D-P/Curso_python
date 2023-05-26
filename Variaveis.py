@@ -14,3 +14,13 @@ print(b + b)
 
 #int type
 print(c + c)
+
+print("\n","----------------------","\n")
+ 
+#Manipulando o tipo da váriavel
+d = str(3)
+e = int(4)
+f = float(5)
+print(d+d)
+print(e+e)
+print(f+f)
