@@ -1,6 +1,6 @@
 # Dicionarios 
-# Utiliza utiliza index no formato de keys e value
-# Aceita integer float string boolean...
+    # Utiliza index no formato de keys e value
+    # Aceita integer float string boolean...
 
 
 aluno = {'Nome': 'Ana', 'Idade': 16, 'Nota_final': 'A', 'Aprovação': True}
