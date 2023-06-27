@@ -3,7 +3,14 @@
     # Aceita integer float string boolean...
 
 
-aluno = {'Nome': 'Ana', 'Idade': 16, 'Nota_final': 'A', 'Aprovação': True}
+aluno = {
+    'Nome': 'Ana',
+    'Idade': 16,
+    'Nota_final': 'A', 
+    'Aprovação': True
+    }
+
+
 print(aluno)
 print()
 
