@@ -5,15 +5,9 @@
     # Código mais 'clean'
 
 
-# Função convencional
 def somar(x):
-    return x + 10
+    função2 = lambda x: x + 10
+    return função2(x) * 4
 
 
-print(somar(2))    
-print()
-
-# Lambda mesmo resultado uma linha linha de codigo
-calcular = lambda x: x + 10
-
-print(calcular(2))
+print(somar(2))
