@@ -32,4 +32,28 @@ valor2 = int(input('Digite o segundo valor: '))
 
 
 print(f'O resultado da soma entre {valor1} e o numero {valor2} é:  {soma(valor1,valor2)}')
+print('\n====================\n')
 
+
+# 3° Desafio calculando base e expoente
+
+'''
+Para este desafio, crie uma função que calcule a potência de um numero
+A função deve aceitar dois argumentos: a base eo expoente,no entanto 
+se o expoente não for fornecido ao chamar a função,ele deve assumir
+o valor padrão de 2.
+'''
+
+
+def potencia(base,expoente=2) :
+        return base ** expoente
+
+print('3° Desafio\n')
+
+user_base = int(input('Digite a base: '))
+user_expoente = input('Digite o expoente: ')
+
+if user_expoente:
+    print(f'O resultado é: {potencia(user_base,int(user_expoente))}')
+else:
+    print(f'O resultado é: {potencia(user_base,)}')
